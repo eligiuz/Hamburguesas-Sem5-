@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var mensajeHamburguesa: UILabel!
     var pais = ColeccionDePaises()
     var hamburguesa = ColeccionDeHamburguesas()
+    let colores = Colores()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,10 @@ class ViewController: UIViewController {
     @IBAction func cambiarMensaje() {
         mensajePais.text = pais.ObtenPais()
         mensajeHamburguesa.text = hamburguesa.ObtenHamburguesa()
+        let colorAleatorio = colores.regresaColorAleatorio()
+        view.backgroundColor = colorAleatorio
+        view.tintColor = colorAleatorio
+        
     }
 
 }

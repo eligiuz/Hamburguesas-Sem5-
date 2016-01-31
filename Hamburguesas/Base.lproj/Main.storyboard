@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMd-sb-Fup">
-                                <rect key="frame" x="97" y="237" width="108" height="21"/>
+                                <rect key="frame" x="97" y="237" width="126" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdZ-ZS-Utv">
-                                <rect key="frame" x="68" y="334" width="177" height="30"/>
+                                <rect key="frame" x="68" y="334" width="184" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Quiero una hamburguesa!"/>
                                 <connections>
@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pais" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NB2-ub-qRS">
-                                <rect key="frame" x="140" y="151" width="32" height="21"/>
+                                <rect key="frame" x="140" y="151" width="40" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -46,8 +46,11 @@
                             <constraint firstItem="fdZ-ZS-Utv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="314" id="2GR-cZ-dWa"/>
                             <constraint firstItem="cMd-sb-Fup" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="217" id="Cje-a4-4eZ"/>
                             <constraint firstItem="cMd-sb-Fup" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="81" id="Klh-GD-K5p"/>
+                            <constraint firstItem="fdZ-ZS-Utv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WNv-0M-CYa"/>
+                            <constraint firstItem="cMd-sb-Fup" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h3f-M0-FG6"/>
                             <constraint firstItem="NB2-ub-qRS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="124" id="wRS-JS-LCU"/>
                             <constraint firstItem="NB2-ub-qRS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="131" id="xCz-6o-ikb"/>
+                            <constraint firstItem="NB2-ub-qRS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xoQ-Ds-lDI"/>
                         </constraints>
                     </view>
                     <connections>
